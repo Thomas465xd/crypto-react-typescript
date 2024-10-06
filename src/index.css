@@ -116,3 +116,39 @@ body {
 .form [type="submit"]:hover {
     background-color: #0cb387;
 }
+
+.error {
+    background-color: rgba(255, 0, 0, 0.274);
+    color: var(--white);
+    padding: 1rem;
+    border-left: 5px solid var(--accent-color);
+    text-align: center;
+}
+
+.result-wrapper {
+    margin-top: 5rem;
+}
+
+.result-wrapper h2 {
+    text-align: center;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.result img {
+    width: 100%;
+}
+
+.result p {
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+}
+
+.result span {
+    font-weight: 700;
+}
