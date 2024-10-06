@@ -80,3 +80,39 @@ body {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.form, 
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form label {
+    color: var(--text-primary);
+}
+
+.form select {
+    background-color: #ecebeb;
+    border: none;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+}
+
+.form [type="submit"] {
+    background-color: var(--secondary);
+    color: var(--gray-dark);
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: background-color .3s ease;
+}
+
+.form [type="submit"]:hover {
+    background-color: #0cb387;
+}
