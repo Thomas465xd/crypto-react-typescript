@@ -1,0 +1,82 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+
+    /* Primary and secondary colors */
+    --primary: #3498db;  /* Blue shade */
+    --secondary: #61ecbc;  /* Green shade */
+    
+    /* Accent and highlight colors */
+    --accent-color: #e74c3c;  /* Red shade */
+    --highlight-color: #f1c40f;  /* Yellow shade */
+
+    /* Neutral and grayscale colors */
+    --gray-light: #ecf0f1;  /* Light gray */
+    --gray-dark: #2c3e50;  /* Dark gray */
+    
+    /* Text colors */
+    --text-primary: #333333;  /* Dark text */
+    --text-secondary: #777777;  /* Lighter text */
+    
+    /* Background colors */
+    --background-light: #f9f9f9;  /* Light background */
+    --background-dark: #1e1e1e;  /* Dark background */
+    
+    /* Border colors */
+    --border-light: #dcdcdc;  /* Light border */
+    --border-dark: #444444;  /* Dark border */
+    
+    /* Shadows */
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+    
+    /* Font sizes */
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-large: 20px;
+    
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 60rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.app-title {
+    font-size: 3.8rem;
+    margin-top: 5rem;
+    color: var(--white);
+    line-height: .8;
+}
+
+.app-title span {
+    display: block;
+    color: var(--secondary);
+    font-size: 4.4rem;
+}
+
+.content {
+    margin-top: 5rem;
+    padding: 6rem 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
